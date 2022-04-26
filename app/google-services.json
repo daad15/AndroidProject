@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "806034908564",
+    "project_id": "rakez-592b6",
+    "storage_bucket": "rakez-592b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806034908564:android:3fc8afa84c2871634c5b81",
+        "android_client_info": {
+          "package_name": "com.example.rakez"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806034908564-gcfm9u4l5mgvdnaneovabn1j87meb8j3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvAG-oxLIWDJuqr_a3ka_VCJjQKIeDXME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806034908564-gcfm9u4l5mgvdnaneovabn1j87meb8j3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
