@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Rakez">
         <activity
+            android:name=".women_abaya"
+            android:exported="false" />
+        <activity
+            android:name=".women_tight"
+            android:exported="false" />
+        <activity
+            android:name=".women_ring"
+            android:exported="false" />
+        <activity
+            android:name=".women_belt"
+            android:exported="false" />
+        <activity
             android:name=".men_pants"
             android:exported="false" />
         <activity
