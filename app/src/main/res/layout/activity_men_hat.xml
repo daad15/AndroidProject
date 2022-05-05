@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".men_hat">
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:layout_margin="40dp">
+
+    <!-- Table Heading -->
+
+    <TableRow
+        android:background="#F3CE33">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="محيط الرأس (سم)"
+            android:textColor="#FFFFFF"
+            android:padding="10sp"
+            android:textSize="14sp"
+            android:layout_weight="3"
+            android:gravity="center_horizontal"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="المقاس العالمي"
+            android:textColor="#FFFFFF"
+            android:padding="10sp"
+            android:textSize="14sp"
+            android:layout_weight="3"
+            android:gravity="center_horizontal"
+            />
+
+
+    </TableRow>
+
+    <!-- Table Data -->
+
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="56"
+            android:padding="10sp"
+            android:textSize="12sp"
+            android:layout_weight="3"
+            android:gravity="center_horizontal"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="S"
+            android:padding="10sp"
+            android:textSize="12sp"
+            android:layout_weight="3"
+            android:gravity="center_horizontal"
+            />
+
+    </TableRow>
+    <TableRow android:background="#F2EEEC">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="58"
+            android:padding="10sp"
+            android:textSize="12sp"
+            android:layout_weight="3"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="M"
+            android:padding="10sp"
+            android:textSize="12sp"
+            android:layout_weight="3"
+            android:gravity="center_horizontal"
+            />
+
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="60"
+            android:padding="10sp"
+            android:textSize="12sp"
+            android:layout_weight="3"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="L"
+            android:padding="10sp"
+            android:textSize="12sp"
+            android:layout_weight="3"
+            android:gravity="center_horizontal"
+            />
+
+    </TableRow>
+    <TableRow android:background="#F2EEEC">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="62"
+            android:padding="10sp"
+            android:textSize="12sp"
+            android:layout_weight="3"
+            android:gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="XL"
+            android:padding="10sp"
+            android:textSize="12sp"
+            android:layout_weight="3"
+            android:gravity="center_horizontal"
+            />
+
+    </TableRow>
+
+</TableLayout>
+
+</RelativeLayout>
