@@ -13,8 +13,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
-    public void call_men(View V){
+//test fragments (Daad)
+    public void call_menP(View V){
+        Intent i = new Intent(this,men_pants.class);
+        startActivity(i);
+        finish();
+    }
+    public void call_menT(View V){
         Intent i = new Intent(this,men_top.class);
         startActivity(i);
         finish();
