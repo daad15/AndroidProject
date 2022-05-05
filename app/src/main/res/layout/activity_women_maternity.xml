@@ -4,7 +4,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".women_abaya">
+        tools:context=".women_maternity">
 
         <TableLayout
             android:layout_width="match_parent"
@@ -24,7 +24,16 @@
                     android:layout_weight="3"
                     android:gravity="center_horizontal"
                     android:padding="10sp"
-                    android:text="طول العباية (سم)"
+                    android:text=" الصدر (سم)"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
+                    android:text="أسفل الصدر (سم)"
                     android:textColor="#FFFFFF"
                     android:textSize="14sp" />
                 <TextView
@@ -33,16 +42,7 @@
                     android:layout_weight="3"
                     android:gravity="center_horizontal"
                     android:padding="10sp"
-                    android:text="عرض العباية (سم)"
-                    android:textColor="#FFFFFF"
-                    android:textSize="14sp" />
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    android:padding="10sp"
-                    android:text="طول الأكمام (سم)"
+                    android:text=" الورك (سم)"
                     android:textColor="#FFFFFF"
                     android:textSize="14sp" />
 
@@ -52,7 +52,7 @@
                     android:layout_weight="4"
                     android:gravity="center_horizontal"
                     android:padding="10sp"
-                    android:text="مقاس العباية"
+                    android:text="المقاس العالمي"
                     android:textColor="#FFFFFF"
                     android:textSize="14sp" />
             </TableRow>
@@ -65,15 +65,15 @@
                     android:layout_weight="3"
                     android:gravity="center_horizontal"
                     android:padding="10sp"
-                    android:text="132"
+                    android:text="91"
                     android:textSize="12sp" />
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="3"
+                    android:layout_weight="4"
                     android:gravity="center_horizontal"
                     android:padding="10sp"
-                    android:text="58"
+                    android:text="70-75"
                     android:textSize="12sp" />
 
                 <TextView
@@ -82,7 +82,7 @@
                     android:layout_weight="3"
                     android:gravity="center_horizontal"
                     android:padding="10sp"
-                    android:text="68"
+                    android:text="96"
                     android:textSize="12sp" />
                 <TextView
                     android:layout_width="0dp"
@@ -90,7 +90,7 @@
                     android:layout_weight="4"
                     android:gravity="center_horizontal"
                     android:padding="10sp"
-                    android:text="52"
+                    android:text="S"
                     android:textSize="12sp" />
 
             </TableRow>
@@ -103,23 +103,7 @@
                     android:layout_weight="3"
                     android:gravity="center_horizontal"
                     android:padding="10sp"
-                    android:text="137"
-                    android:textSize="12sp" />
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    android:padding="10sp"
-                    android:text="60"
-                    android:textSize="12sp" />
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    android:padding="10sp"
-                    android:text="68"
+                    android:text="96"
                     android:textSize="12sp" />
                 <TextView
                     android:layout_width="0dp"
@@ -127,7 +111,23 @@
                     android:layout_weight="4"
                     android:gravity="center_horizontal"
                     android:padding="10sp"
-                    android:text="54"
+                    android:text="76-81"
+                    android:textSize="12sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
+                    android:text="101"
+                    android:textSize="12sp" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
+                    android:text="M"
                     android:textSize="12sp" />
             </TableRow>
             <TableRow>
@@ -137,15 +137,15 @@
                     android:layout_weight="3"
                     android:gravity="center_horizontal"
                     android:padding="10sp"
-                    android:text="142"
+                    android:text="101"
                     android:textSize="12sp" />
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="3"
+                    android:layout_weight="4"
                     android:gravity="center_horizontal"
                     android:padding="10sp"
-                    android:text="63"
+                    android:text="82-87"
                     android:textSize="12sp" />
 
                 <TextView
@@ -154,7 +154,7 @@
                     android:layout_weight="3"
                     android:gravity="center_horizontal"
                     android:padding="10sp"
-                    android:text="69"
+                    android:text="106"
                     android:textSize="12sp" />
                 <TextView
                     android:layout_width="0dp"
@@ -162,7 +162,7 @@
                     android:layout_weight="4"
                     android:gravity="center_horizontal"
                     android:padding="10sp"
-                    android:text="56"
+                    android:text="L"
                     android:textSize="12sp" />
             </TableRow>
 
@@ -173,7 +173,7 @@
                     android:layout_weight="3"
                     android:gravity="center_horizontal"
                     android:padding="10sp"
-                    android:text="147"
+                    android:text="108"
                     android:textSize="12sp" />
                 <TextView
                     android:layout_width="0dp"
@@ -181,7 +181,7 @@
                     android:layout_weight="3"
                     android:gravity="center_horizontal"
                     android:padding="10sp"
-                    android:text="66"
+                    android:text="88-93"
                     android:textSize="12sp" />
                 <TextView
                     android:layout_width="0dp"
@@ -189,7 +189,7 @@
                     android:layout_weight="3"
                     android:gravity="center_horizontal"
                     android:padding="10sp"
-                    android:text="70"
+                    android:text="111"
                     android:textSize="12sp" />
                 <TextView
                     android:layout_width="0dp"
@@ -197,43 +197,8 @@
                     android:layout_weight="4"
                     android:gravity="center_horizontal"
                     android:padding="10sp"
-                    android:text="58"
-                    android:textSize="12sp" />
-            </TableRow>
-            <TableRow>
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    android:padding="10sp"
-                    android:text="152"
-                    android:textSize="12sp" />
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    android:padding="10sp"
-                    android:text="70"
-                    android:textSize="12sp" />
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    android:padding="10sp"
-                    android:text="70"
-                    android:textSize="12sp" />
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="4"
-                    android:gravity="center_horizontal"
-                    android:padding="10sp"
-                    android:text="60"
+                    android:text="XL"
                     android:textSize="12sp" />
             </TableRow>
         </TableLayout>
-
     </RelativeLayout>
