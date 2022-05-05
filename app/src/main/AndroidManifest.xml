@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Rakez">
         <activity
+            android:name=".men_top"
+            android:exported="false" />
+        <activity
             android:name=".men_thoub"
             android:exported="false" />
         <activity
