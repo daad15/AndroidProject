@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Rakez">
         <activity
+            android:name=".men"
+            android:exported="false" />
+        <activity
             android:name=".logout"
             android:exported="false" />
         <activity
