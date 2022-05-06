@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         // Initialize Firebase Auth
         mAuth = FirebaseAuth.getInstance();
     }
+    // register & sign user by ID
     @Override
     public void onStart() {
         super.onStart();
@@ -52,6 +53,7 @@ public void go_logOut(View V){
     startActivity(i);
     finish();
 }
+// for test
     public void call_menP(View V){
         Intent i = new Intent(this,men_pants.class);
         startActivity(i);
