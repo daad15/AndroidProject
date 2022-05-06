@@ -17,7 +17,7 @@
         android:columnOrderPreserved="false"
         android:rowCount="3">
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
@@ -39,7 +39,7 @@
                 <ImageView
                     android:layout_width="88dp"
                     android:layout_height="88dp"
-                    android:src="@drawable/thobe"
+                   android:src="@drawable/thobe"
                     />
 
                 <TextView
@@ -50,9 +50,9 @@
                     android:textColor="@color/black"
                     android:textSize="18sp" />
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
@@ -74,7 +74,7 @@
                 <ImageView
                     android:layout_width="88dp"
                     android:layout_height="88dp"
-                    android:src="@drawable/tshrit"
+                    android:src="@drawable/tshirt"
                     />
 
                 <TextView
@@ -85,9 +85,9 @@
                     android:textColor="@color/black"
                     android:textSize="18sp" />
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
@@ -120,9 +120,9 @@
                     android:textColor="@color/black"
                     android:textSize="18sp" />
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
@@ -155,9 +155,9 @@
                     android:textColor="@color/black"
                     android:textSize="18sp" />
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
@@ -190,9 +190,9 @@
                     android:textColor="@color/black"
                     android:textSize="18sp" />
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
@@ -225,9 +225,9 @@
                     android:textColor="@color/black"
                     android:textSize="18sp" />
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
@@ -260,9 +260,9 @@
                     android:textColor="@color/black"
                     android:textSize="18sp" />
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
@@ -295,9 +295,9 @@
                     android:textColor="@color/black"
                     android:textSize="18sp" />
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_rowWeight="1"
@@ -330,7 +330,7 @@
                     android:textColor="@color/black"
                     android:textSize="18sp" />
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
     </GridLayout>
 </ScrollView>
