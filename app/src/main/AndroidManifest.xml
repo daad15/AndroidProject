@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Rakez">
         <activity
+            android:name=".baby_beany"
+            android:exported="false" />
+        <activity
             android:name=".women_pants"
             android:exported="false" />
         <activity
