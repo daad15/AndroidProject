@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Rakez">
         <activity
+            android:name=".ch_shoes"
+            android:exported="false" />
+        <activity
+            android:name=".ch_boy"
+            android:exported="false" />
+        <activity
+            android:name=".ch_girl"
+            android:exported="false" />
+        <activity
+            android:name=".toddler"
+            android:exported="false" />
+        <activity
             android:name=".baby_beany"
             android:exported="false" />
         <activity
