@@ -55,12 +55,12 @@ public void go_logOut(View V){
 }
 // for test
     public void call_menP(View V){
-        Intent i = new Intent(this,men_pants.class);
+        Intent i = new Intent(this,women_dress.class);
         startActivity(i);
         finish();
     }
     public void call_menT(View V){
-        Intent i = new Intent(this,men_top.class);
+        Intent i = new Intent(this,women_pants.class);
         startActivity(i);
         finish();
     }
