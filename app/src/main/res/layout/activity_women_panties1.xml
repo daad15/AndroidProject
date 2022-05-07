@@ -5,6 +5,8 @@
     android:layout_height="match_parent"
     tools:context=".women_panties1">
 
+    <include layout="@layout/toolbar"/>
+
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"

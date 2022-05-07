@@ -47,14 +47,8 @@ public class MainActivity extends AppCompatActivity {
             });
         }
     }
-//test  (Daad)
-public void go_logOut(View V){
-    Intent i = new Intent(this,logout.class);
-    startActivity(i);
-    finish();
-}
-// for test
-    public void call_menP(View V){
+
+    public void go_mySize(View V){
         Intent i = new Intent(this,mySize.class);
         startActivity(i);
         finish();
@@ -78,4 +72,9 @@ public void go_logOut(View V){
         finish();
     }
 
+    public void go_menu(View V){
+        Intent i = new Intent(this,Menu.class);
+        startActivity(i);
+        finish();
+    }
 }

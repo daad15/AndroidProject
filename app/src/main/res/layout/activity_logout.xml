@@ -6,27 +6,33 @@
     android:layout_height="match_parent"
     tools:context=".logout">
 
+    <include layout="@layout/toolbar"/>
+
     <TextView
         android:id="@+id/userid"
-        android:layout_width="274dp"
-        android:layout_height="89dp"
-        android:text="this will delete all your data stored in the app"
+        android:layout_width="278dp"
+        android:layout_height="96dp"
+        android:text="ستحذف جميع بياناتك المخزنة في التطبيق !!"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.322" />
+        app:layout_constraintVertical_bias="0.337" />
 
     <Button
         android:id="@+id/logoutbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="logout"
+        android:background="#F3CE3B"
+        android:onClick="logOut"
+        android:text="تسجيل الخروج"
+        android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:onClick="logOut"/>
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

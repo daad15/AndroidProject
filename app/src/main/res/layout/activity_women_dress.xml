@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".women_dress">
 
+    <include layout="@layout/toolbar"/>
+
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/womendress_tab"
         android:layout_width="409dp"

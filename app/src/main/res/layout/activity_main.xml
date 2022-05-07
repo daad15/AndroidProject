@@ -4,20 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".MainActivity">
 
-    //test daad
+    <include layout="@layout/toolbar" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="call_menP"
+        android:background="#F3CE3B"
+        android:onClick="go_mySize"
         android:text="مقاساتي"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.959" />
@@ -30,22 +32,21 @@
         android:rotationY="11"
         app:layout_constraintBottom_toTopOf="@+id/textMen"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.781"
+        app:layout_constraintVertical_bias="0.903"
         app:srcCompat="@drawable/man" />
 
     <TextView
         android:id="@+id/textMen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="148dp"
+        android:layout_marginTop="220dp"
         android:onClick="go_men"
         android:text="رجال"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -56,50 +57,53 @@
         android:onClick="go_kids"
         app:layout_constraintBottom_toTopOf="@+id/textKids"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textWomen"
-        app:layout_constraintVertical_bias="0.882"
+        app:layout_constraintVertical_bias="0.777"
         app:srcCompat="@drawable/child" />
 
     <TextView
         android:id="@+id/textKids"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="28dp"
+        android:layout_marginBottom="20dp"
         android:background="#00FFFFFF"
         android:onClick="go_kids"
         android:text="أطفال"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="142dp"
         android:layout_height="130dp"
+        android:onClick="go_women"
         android:rotation="3"
         app:layout_constraintBottom_toTopOf="@+id/textWomen"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintHorizontal_bias="0.468"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textMen"
-        app:layout_constraintVertical_bias="0.865"
+        app:layout_constraintVertical_bias="0.853"
         app:srcCompat="@drawable/woman" />
 
     <TextView
         android:id="@+id/textWomen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="go_women"
         android:text="نساء"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/textKids"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textMen"
-        app:layout_constraintVertical_bias="0.532" />
+        app:layout_constraintVertical_bias="0.511" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

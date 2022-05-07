@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import com.google.android.material.tabs.TabLayout;
 
@@ -26,5 +28,11 @@ public class women_skirt extends AppCompatActivity {
         vpAdapter.addFragment(new women_skirt_l(), "المقاسات الطويلة");
         vpAdapter.addFragment(new women_skirt_s(),"المقاسات القصيرة");
         viewPager.setAdapter(vpAdapter);
+    }
+
+    public void go_menu(View V){
+        Intent i = new Intent(this,Menu.class);
+        startActivity(i);
+        finish();
     }
 }
