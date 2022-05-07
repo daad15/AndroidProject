@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Rakez">
         <activity
+            android:name=".createSize"
+            android:exported="false" />
+        <activity
+            android:name=".mySize"
+            android:exported="false" />
+        <activity
             android:name=".ch_shoes"
             android:exported="false" />
         <activity
