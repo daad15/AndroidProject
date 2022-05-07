@@ -10,15 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Rakez">
         <activity
-            android:name=".women_panties"
-            android:exported="false" />
-        <activity
-            android:name=".women_bra"
-            android:exported="false" />
-        <activity
-            android:name=".women_shoes"
-            android:exported="false" />
-        <activity
             android:name=".createSize"
             android:exported="false" />
         <activity
