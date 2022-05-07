@@ -60,4 +60,22 @@ public void go_logOut(View V){
         finish();
     }
 
+    public void go_men(View V){
+        Intent i = new Intent(this,men.class);
+        startActivity(i);
+        finish();
+    }
+
+    public void go_women(View V){
+        Intent i = new Intent(this,Women.class);
+        startActivity(i);
+        finish();
+    }
+
+    public void go_kids(View V){
+        Intent i = new Intent(this,Kids.class);
+        startActivity(i);
+        finish();
+    }
+
 }
