@@ -42,7 +42,7 @@ public class mySize extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_size);
         mcreatesizefab = findViewById(R.id.createsizefab);
-        getSupportActionBar().setTitle("مقاساتي");
+        //getSupportActionBar().setTitle("مقاساتي");
 
         firebaseUser= FirebaseAuth.getInstance().getCurrentUser();
         firebaseFirestore=FirebaseFirestore.getInstance();
