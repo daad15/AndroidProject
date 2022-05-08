@@ -9,132 +9,131 @@ tools:context=".men_hat">
     <include layout="@layout/toolbar"/>
 
     <TableLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@android:color/white"
-    android:layout_margin="40dp">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="@android:color/white">
 
-    <!-- Table Heading -->
+        <!-- Table Heading -->
 
-    <TableRow
-        android:background="#F3CE33">
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="محيط الرأس (سم)"
-            android:textColor="#FFFFFF"
-            android:padding="10sp"
-            android:textSize="14sp"
-            android:layout_weight="3"
-            android:gravity="center_horizontal"
-            />
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="المقاس العالمي"
-            android:textColor="#FFFFFF"
-            android:padding="10sp"
-            android:textSize="14sp"
-            android:layout_weight="3"
-            android:gravity="center_horizontal"
-            />
+        <TableRow android:background="#F3CE33">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="محيط الرأس (سم)"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="المقاس العالمي"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
 
 
-    </TableRow>
+        </TableRow>
 
-    <!-- Table Data -->
+        <!-- Table Data -->
 
-    <TableRow>
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="56"
-            android:padding="10sp"
-            android:textSize="12sp"
-            android:layout_weight="3"
-            android:gravity="center_horizontal"
-            />
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="S"
-            android:padding="10sp"
-            android:textSize="12sp"
-            android:layout_weight="3"
-            android:gravity="center_horizontal"
-            />
+        <TableRow>
 
-    </TableRow>
-    <TableRow android:background="#F2EEEC">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="56"
+                android:textSize="12sp" />
 
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="58"
-            android:padding="10sp"
-            android:textSize="12sp"
-            android:layout_weight="3"
-            android:gravity="center_horizontal"
-            />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="S"
+                android:textSize="12sp" />
 
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="M"
-            android:padding="10sp"
-            android:textSize="12sp"
-            android:layout_weight="3"
-            android:gravity="center_horizontal"
-            />
+        </TableRow>
 
-    </TableRow>
-    <TableRow>
+        <TableRow android:background="#F2EEEC">
 
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="60"
-            android:padding="10sp"
-            android:textSize="12sp"
-            android:layout_weight="3"
-            android:gravity="center_horizontal"
-            />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="58"
+                android:textSize="12sp" />
 
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="L"
-            android:padding="10sp"
-            android:textSize="12sp"
-            android:layout_weight="3"
-            android:gravity="center_horizontal"
-            />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="M"
+                android:textSize="12sp" />
 
-    </TableRow>
-    <TableRow android:background="#F2EEEC">
+        </TableRow>
 
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="62"
-            android:padding="10sp"
-            android:textSize="12sp"
-            android:layout_weight="3"
-            android:gravity="center_horizontal"
-            />
+        <TableRow>
 
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:text="XL"
-            android:padding="10sp"
-            android:textSize="12sp"
-            android:layout_weight="3"
-            android:gravity="center_horizontal"
-            />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="60"
+                android:textSize="12sp" />
 
-    </TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="L"
+                android:textSize="12sp" />
 
-</TableLayout>
+        </TableRow>
+
+        <TableRow android:background="#F2EEEC">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="62"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
+                android:text="XL"
+                android:textSize="12sp" />
+
+        </TableRow>
+
+    </TableLayout>
 
 </RelativeLayout>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,9 +8,7 @@
 
     <include layout="@layout/toolbar"/>
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".women_bra">
@@ -17,320 +16,328 @@
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@android:color/white"
-            android:layout_margin="40dp">
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="40dp"
+            android:background="@android:color/white">
 
             <!-- Table Heading -->
 
-            <TableRow
-                android:background="#F3CE33">
+            <TableRow android:background="#F3CE33">
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
                     android:text="Size"
                     android:textColor="#FFFFFF"
-                    android:padding="10sp"
-                    android:textSize="14sp"
-                    android:layout_weight="4"
-                    android:gravity="center_horizontal"
-                    />
+                    android:textSize="14sp" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
                     android:text="underbust"
                     android:textColor="#FFFFFF"
-                    android:padding="10sp"
-                    android:textSize="14sp"
-                    android:layout_weight="4"
-                    android:gravity="center_horizontal"
-                    />
+                    android:textSize="14sp" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
                     android:text="cup_size"
                     android:textColor="#FFFFFF"
-                    android:padding="10sp"
-                    android:textSize="14sp"
-                    android:layout_weight="4"
-                    android:gravity="center_horizontal"
-                    />
+                    android:textSize="14sp" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="overbust"
-                    android:textColor="#FFFFFF"
-                    android:padding="10sp"
-                    android:textSize="14sp"
                     android:layout_weight="4"
                     android:gravity="center_horizontal"
-                    />
+                    android:padding="10sp"
+                    android:text="overbust"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp" />
             </TableRow>
             <!-- Table Data -->
             <TableRow>
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
                     android:text="30"
-                    android:padding="10sp"
-                    android:textSize="12sp"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    />
+                    android:textSize="12sp" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
                     android:text="63-67"
-                    android:padding="10sp"
-                    android:textSize="12sp"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    />
+                    android:textSize="12sp" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
                     android:text="B"
-                    android:padding="10sp"
-                    android:textSize="12sp"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    />
+                    android:textSize="12sp" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
                     android:text="31.1-31.9"
-                    android:padding="10sp"
-                    android:textSize="12sp"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    />
+                    android:textSize="12sp" />
             </TableRow>
+
             <TableRow android:background="#F2EEEC">
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
                     android:text="30"
-                    android:padding="10sp"
-                    android:textSize="12sp"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    />
+                    android:textSize="12sp" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
                     android:text="63-67"
-                    android:padding="10sp"
-                    android:textSize="12sp"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    />
+                    android:textSize="12sp" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
                     android:text="C"
-                    android:padding="10sp"
-                    android:textSize="12sp"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    />
+                    android:textSize="12sp" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
                     android:text="31.9-32.7"
-                    android:padding="10sp"
-                    android:textSize="12sp"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    />
+                    android:textSize="12sp" />
             </TableRow>
+
             <TableRow>
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
                     android:text="30"
-                    android:padding="10sp"
-                    android:textSize="12sp"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    />
+                    android:textSize="12sp" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
                     android:text="63-67"
-                    android:padding="10sp"
-                    android:textSize="12sp"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    />
+                    android:textSize="12sp" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
                     android:text="D"
-                    android:padding="10sp"
-                    android:textSize="12sp"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    />
+                    android:textSize="12sp" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
                     android:text="32.7-33.5"
-                    android:padding="10sp"
-                    android:textSize="12sp"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    />
+                    android:textSize="12sp" />
             </TableRow>
+
             <TableRow android:background="#F2EEEC">
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
                     android:text="30"
-                    android:padding="10sp"
-                    android:textSize="12sp"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    />
+                    android:textSize="12sp" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
                     android:text="63-67"
-                    android:padding="10sp"
-                    android:textSize="12sp"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    />
+                    android:textSize="12sp" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
                     android:text="DD"
-                    android:padding="10sp"
-                    android:textSize="12sp"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    />
+                    android:textSize="12sp" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
                     android:text="33.5-34.3"
-                    android:padding="10sp"
-                    android:textSize="12sp"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    />
+                    android:textSize="12sp" />
             </TableRow>
+
             <TableRow>
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
                     android:text="30"
-                    android:padding="10sp"
-                    android:textSize="12sp"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    />
+                    android:textSize="12sp" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
                     android:text="63-67"
-                    android:padding="10sp"
-                    android:textSize="12sp"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    />
+                    android:textSize="12sp" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
                     android:text="E"
-                    android:padding="10sp"
-                    android:textSize="12sp"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    />
+                    android:textSize="12sp" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
                     android:text="87-89"
-                    android:padding="10sp"
-                    android:textSize="12sp"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    />
+                    android:textSize="12sp" />
             </TableRow>
+
             <TableRow android:background="#F2EEEC">
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
                     android:text="32"
-                    android:padding="10sp"
-                    android:textSize="12sp"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    />
+                    android:textSize="12sp" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
                     android:text="68-72"
-                    android:padding="10sp"
-                    android:textSize="12sp"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    />
+                    android:textSize="12sp" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
                     android:text="A"
-                    android:padding="10sp"
-                    android:textSize="12sp"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    />
+                    android:textSize="12sp" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
                     android:text="82-84"
-                    android:padding="10sp"
-                    android:textSize="12sp"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    />
+                    android:textSize="12sp" />
             </TableRow>
+
             <TableRow>
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
                     android:text="32"
-                    android:padding="10sp"
-                    android:textSize="12sp"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    />
+                    android:textSize="12sp" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
                     android:text="68-72"
-                    android:padding="10sp"
-                    android:textSize="12sp"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    />
+                    android:textSize="12sp" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
                     android:text="B"
-                    android:padding="10sp"
-                    android:textSize="12sp"
-                    android:layout_weight="3"
-                    android:gravity="center_horizontal"
-                    />
+                    android:textSize="12sp" />
+
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="84-86"
-                    android:padding="10sp"
-                    android:textSize="12sp"
                     android:layout_weight="3"
                     android:gravity="center_horizontal"
-                    />
+                    android:padding="10sp"
+                    android:text="84-86"
+                    android:textSize="12sp" />
             </TableRow>
 
 

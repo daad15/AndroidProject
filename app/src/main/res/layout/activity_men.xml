@@ -37,15 +37,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
+                android:onClick="go_Mthoub"
                 android:orientation="vertical"
-                android:padding="16dp"
-                >
+                android:padding="16dp">
 
                 <ImageView
                     android:layout_width="88dp"
                     android:layout_height="88dp"
-                   android:src="@drawable/thobe"
-                    />
+                    android:src="@drawable/thobe" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -73,14 +72,14 @@
                 android:layout_height="match_parent"
                 android:clickable="true"
                 android:gravity="center"
+                android:onClick="go_Mtop"
                 android:orientation="vertical"
                 android:padding="16dp">
 
                 <ImageView
                     android:layout_width="88dp"
                     android:layout_height="88dp"
-                    android:src="@drawable/tshirt"
-                    />
+                    android:src="@drawable/tshirt" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -108,14 +107,14 @@
                 android:layout_height="match_parent"
                 android:clickable="true"
                 android:gravity="center"
+                android:onClick="go_Mtop"
                 android:orientation="vertical"
                 android:padding="16dp">
 
                 <ImageView
                     android:layout_width="88dp"
                     android:layout_height="88dp"
-                    android:src="@drawable/shirt"
-                    />
+                    android:src="@drawable/shirt" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -143,14 +142,14 @@
                 android:layout_height="match_parent"
                 android:clickable="true"
                 android:gravity="center"
+                android:onClick="go_Mpants"
                 android:orientation="vertical"
                 android:padding="16dp">
 
                 <ImageView
                     android:layout_width="88dp"
                     android:layout_height="88dp"
-                    android:src="@drawable/pants"
-                    />
+                    android:src="@drawable/pants" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -178,14 +177,14 @@
                 android:layout_height="match_parent"
                 android:clickable="true"
                 android:gravity="center"
+                android:onClick="go_Munderwaer"
                 android:orientation="vertical"
                 android:padding="16dp">
 
                 <ImageView
                     android:layout_width="88dp"
                     android:layout_height="88dp"
-                    android:src="@drawable/underwear"
-                    />
+                    android:src="@drawable/underwear" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -213,6 +212,7 @@
                 android:layout_height="match_parent"
                 android:clickable="true"
                 android:gravity="center"
+                android:onClick="go_Mshoes"
                 android:orientation="vertical"
                 android:padding="16dp">
 
@@ -220,7 +220,7 @@
 
                     android:layout_width="88dp"
                     android:layout_height="88dp"
-                    android:src="@drawable/shoes"/>
+                    android:src="@drawable/shoes" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -248,14 +248,14 @@
                 android:layout_height="match_parent"
                 android:clickable="true"
                 android:gravity="center"
+                android:onClick="go_Mbelt"
                 android:orientation="vertical"
                 android:padding="16dp">
 
                 <ImageView
                     android:layout_width="88dp"
                     android:layout_height="88dp"
-                    android:src="@drawable/belt"
-                    />
+                    android:src="@drawable/belt" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -283,14 +283,14 @@
                 android:layout_height="match_parent"
                 android:clickable="true"
                 android:gravity="center"
+                android:onClick="go_Mhat"
                 android:orientation="vertical"
                 android:padding="16dp">
 
                 <ImageView
                     android:layout_width="88dp"
                     android:layout_height="88dp"
-                    android:src="@drawable/hat"
-                    />
+                    android:src="@drawable/hat" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -318,14 +318,14 @@
                 android:layout_height="match_parent"
                 android:clickable="true"
                 android:gravity="center"
+                android:onClick="go_Mshemagh"
                 android:orientation="vertical"
                 android:padding="16dp">
 
                 <ImageView
                     android:layout_width="88dp"
                     android:layout_height="88dp"
-                    android:src="@drawable/shemagh"
-                    />
+                    android:src="@drawable/shemagh" />
 
                 <TextView
                     android:layout_width="wrap_content"

@@ -37,4 +37,22 @@ public class men_pants extends AppCompatActivity {
         startActivity(i);
         finish();
     }
+
+    public void go_pants_r(View V){
+        Intent i = new Intent(this,menPants_r.class);
+        startActivity(i);
+        finish();
+    }
+
+    public void go_pants_l(View V){
+        Intent i = new Intent(this,menPants_l.class);
+        startActivity(i);
+        finish();
+    }
+
+    public void go_pants_s(View V){
+        Intent i = new Intent(this,menPants_s.class);
+        startActivity(i);
+        finish();
+    }
 }

@@ -11,53 +11,55 @@
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/white"
-        android:layout_margin="40dp">
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="@android:color/white">
 
         <!-- Table Heading -->
 
-        <TableRow
-            android:background="#F3CE33">
+        <TableRow android:background="#F3CE33">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="المقاس البريطاني   US"
                 android:textColor="#FFFFFF"
-                android:padding="10sp"
-                android:textSize="14sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="14sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="المقاس الأمريكي    UK"
                 android:textColor="#FFFFFF"
-                android:padding="10sp"
-                android:textSize="14sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="14sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="طول القدم (سم)"
                 android:textColor="#FFFFFF"
-                android:padding="10sp"
-                android:textSize="14sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="14sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="العمر"
-                android:textColor="#FFFFFF"
-                android:padding="10sp"
-                android:textSize="14sp"
                 android:layout_weight="3"
                 android:gravity="center_horizontal"
-                />
+                android:padding="10sp"
+                android:text="العمر"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
 
 
         </TableRow>
@@ -65,432 +67,442 @@
         <!-- Table Data -->
 
         <TableRow>
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="0"
-                android:padding="10sp"
-                android:textSize="12sp"
                 android:layout_weight="4"
                 android:gravity="center_horizontal"
-                />
+                android:padding="10sp"
+                android:text="0"
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="0"
-                android:padding="10sp"
-                android:textSize="12sp"
                 android:layout_weight="4"
                 android:gravity="center_horizontal"
-                />
+                android:padding="10sp"
+                android:text="0"
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="7.9"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="Newborn"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
 
         </TableRow>
+
         <TableRow android:background="#F2EEEC">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="0.5"
-                android:padding="10sp"
-                android:textSize="12sp"
                 android:layout_weight="4"
                 android:gravity="center_horizontal"
-                />
+                android:padding="10sp"
+                android:text="0.5"
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="0.5"
-                android:padding="10sp"
-                android:textSize="12sp"
                 android:layout_weight="4"
                 android:gravity="center_horizontal"
-                />
+                android:padding="10sp"
+                android:text="0.5"
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="8"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="0-3 اشهر"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
 
         </TableRow>
+
         <TableRow>
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="0.5"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="1"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="8.5"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="3-6 اشهر"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
 
         </TableRow>
+
         <TableRow android:background="#F2EEEC">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="1"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="1.5"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="9"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="6-9 اشهر"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
 
         </TableRow>
+
         <TableRow>
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="1"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="2"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="9.5"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="9-12 اشهر"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
 
         </TableRow>
+
         <TableRow android:background="#F2EEEC">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="1.5"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="2.5"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="10"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="1 سنه"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
 
         </TableRow>
+
         <TableRow>
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="2"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="3"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="10"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="2 سنتين"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
 
         </TableRow>
+
         <TableRow android:background="#F2EEEC">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="2.5"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="3.5"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="11"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="3 سنوات"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
 
         </TableRow>
+
         <TableRow>
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="3"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="4"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="11.5"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="4 سنوات"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
 
         </TableRow>
+
         <TableRow android:background="#F2EEEC">
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="3.5"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="4.5"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="12"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="5 سنوات"
-                android:padding="10sp"
-                android:textSize="12sp"
                 android:layout_weight="4"
                 android:gravity="center_horizontal"
-                />
+                android:padding="10sp"
+                android:text="5 سنوات"
+                android:textSize="12sp" />
 
         </TableRow>
+
         <TableRow>
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="4"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="5"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:padding="10sp"
                 android:text="12.5"
-                android:padding="10sp"
-                android:textSize="12sp"
-                android:layout_weight="4"
-                android:gravity="center_horizontal"
-                />
+                android:textSize="12sp" />
+
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="6 سنوات"
-                android:padding="10sp"
-                android:textSize="12sp"
                 android:layout_weight="4"
                 android:gravity="center_horizontal"
-                />
+                android:padding="10sp"
+                android:text="6 سنوات"
+                android:textSize="12sp" />
         </TableRow>
 
     </TableLayout>

@@ -19,4 +19,52 @@ public class men extends AppCompatActivity {
         startActivity(i);
         finish();
     }
+
+    public void go_Mthoub(View V){
+        Intent i = new Intent(this,men_thoub.class);
+        startActivity(i);
+        finish();
+    }
+
+    public void go_Mtop(View V){
+        Intent i = new Intent(this,men_top.class);
+        startActivity(i);
+        finish();
+    }
+
+    public void go_Mpants(View V){
+        Intent i = new Intent(this,men_pants.class);
+        startActivity(i);
+        finish();
+    }
+
+    public void go_Munderwaer(View V){
+        Intent i = new Intent(this,men_underwear.class);
+        startActivity(i);
+        finish();
+    }
+
+    public void go_Mshoes(View V){
+        Intent i = new Intent(this,men_shoes.class);
+        startActivity(i);
+        finish();
+    }
+
+    public void go_Mbelt(View V){
+        Intent i = new Intent(this,men_belt.class);
+        startActivity(i);
+        finish();
+    }
+
+    public void go_Mhat(View V){
+        Intent i = new Intent(this,men_hat.class);
+        startActivity(i);
+        finish();
+    }
+
+    public void go_Mshemagh(View V){
+        Intent i = new Intent(this,men_shemagh.class);
+        startActivity(i);
+        finish();
+    }
 }
