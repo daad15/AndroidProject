@@ -167,4 +167,10 @@ public class mySize extends AppCompatActivity {
             noteAdapter.stopListening();
         }
     }
+
+    public void go_menu(View V){
+        Intent i = new Intent(this,Menu.class);
+        startActivity(i);
+        finish();
+    }
 }

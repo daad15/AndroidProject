@@ -25,6 +25,7 @@ public class notedetails extends AppCompatActivity {
         mcontentofnotedetail=findViewById(R.id.contentofnotedetail);
         mgotoeditnote=findViewById(R.id.gotoeditnote);
         Toolbar toolbar=findViewById(R.id.toolbarofnotedetail);
+
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 

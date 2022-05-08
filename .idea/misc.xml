@@ -10,21 +10,22 @@
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_create_size.xml" value="0.25" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_editnoteactivity.xml" value="0.14166666666666666" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_logout.xml" value="0.19010416666666666" />
-        <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_men.xml" value="0.25" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_men_belt.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_men_hat.xml" value="0.22" />
-        <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_men_pants.xml" value="0.18" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_men_pants.xml" value="0.22" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_men_shemagh.xml" value="0.33" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_men_shoes.xml" value="0.33" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_men_thoub.xml" value="0.17866909753874202" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_men_top.xml" value="0.1" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_men_underwear.xml" value="0.33" />
-        <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_my_size.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_my_size.xml" value="0.16" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_notedetails.xml" value="0.25" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_scrolling_my_sizes.xml" value="0.14" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_women_abaya.xml" value="0.33" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_women_belt.xml" value="0.5" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_women_bra.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_women_dress.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_women_maternity.xml" value="0.25" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_women_panties.xml" value="0.1" />
@@ -54,53 +55,6 @@
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/fragment_women_top_s.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/fragment_womentop_s.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/size_layout.xml" value="0.5370370370370371" />
-        <entry key="app/src/main/res/layout/activity_about_rakez.xml" value="0.16032608695652173" />
-        <entry key="app/src/main/res/layout/activity_baby.xml" value="0.16032608695652173" />
-        <entry key="app/src/main/res/layout/activity_baby_beany.xml" value="0.16032608695652173" />
-        <entry key="app/src/main/res/layout/activity_care.xml" value="0.16032608695652173" />
-        <entry key="app/src/main/res/layout/activity_ch_boy.xml" value="0.16032608695652173" />
-        <entry key="app/src/main/res/layout/activity_ch_girl.xml" value="0.16032608695652173" />
-        <entry key="app/src/main/res/layout/activity_ch_shoes.xml" value="0.16032608695652173" />
-        <entry key="app/src/main/res/layout/activity_contact_us.xml" value="0.16032608695652173" />
-        <entry key="app/src/main/res/layout/activity_create_size.xml" value="0.16032608695652173" />
-        <entry key="app/src/main/res/layout/activity_editnoteactivity.xml" value="0.16032608695652173" />
-        <entry key="app/src/main/res/layout/activity_kids.xml" value="0.16032608695652173" />
-        <entry key="app/src/main/res/layout/activity_logout.xml" value="0.16032608695652173" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.15668182373046877" />
-        <entry key="app/src/main/res/layout/activity_men.xml" value="0.16032608695652173" />
-        <entry key="app/src/main/res/layout/activity_men_belt.xml" value="0.16032608695652173" />
-        <entry key="app/src/main/res/layout/activity_men_hat.xml" value="0.16032608695652173" />
-        <entry key="app/src/main/res/layout/activity_men_pants.xml" value="0.16032608695652173" />
-        <entry key="app/src/main/res/layout/activity_men_shemagh.xml" value="0.13405797101449277" />
-        <entry key="app/src/main/res/layout/activity_men_shoes.xml" value="0.13405797101449277" />
-        <entry key="app/src/main/res/layout/activity_men_thoub.xml" value="0.13405797101449277" />
-        <entry key="app/src/main/res/layout/activity_men_top.xml" value="0.13405797101449277" />
-        <entry key="app/src/main/res/layout/activity_men_underwear.xml" value="0.16032608695652173" />
-        <entry key="app/src/main/res/layout/activity_menu.xml" value="0.16032608695652173" />
-        <entry key="app/src/main/res/layout/activity_my_size.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_toddler.xml" value="0.16032608695652173" />
-        <entry key="app/src/main/res/layout/activity_women.xml" value="0.16032608695652173" />
-        <entry key="app/src/main/res/layout/activity_women_abaya.xml" value="0.16032608695652173" />
-        <entry key="app/src/main/res/layout/activity_women_belt.xml" value="0.13405797101449277" />
-        <entry key="app/src/main/res/layout/activity_women_bra.xml" value="0.13405797101449277" />
-        <entry key="app/src/main/res/layout/activity_women_dress.xml" value="0.13405797101449277" />
-        <entry key="app/src/main/res/layout/activity_women_maternity.xml" value="0.13405797101449277" />
-        <entry key="app/src/main/res/layout/activity_women_panties1.xml" value="0.13405797101449277" />
-        <entry key="app/src/main/res/layout/activity_women_pants.xml" value="0.13405797101449277" />
-        <entry key="app/src/main/res/layout/activity_women_ring.xml" value="0.13405797101449277" />
-        <entry key="app/src/main/res/layout/activity_women_shoes.xml" value="0.13405797101449277" />
-        <entry key="app/src/main/res/layout/activity_women_skirt.xml" value="0.13405797101449277" />
-        <entry key="app/src/main/res/layout/activity_women_tight.xml" value="0.13405797101449277" />
-        <entry key="app/src/main/res/layout/activity_women_top.xml" value="0.13405797101449277" />
-        <entry key="app/src/main/res/layout/fragment_men_pants_l.xml" value="0.16032608695652173" />
-        <entry key="app/src/main/res/layout/fragment_men_pants_r.xml" value="0.13405797101449277" />
-        <entry key="app/src/main/res/layout/fragment_men_pants_s.xml" value="0.13405797101449277" />
-        <entry key="app/src/main/res/layout/fragment_mentop_l.xml" value="0.13405797101449277" />
-        <entry key="app/src/main/res/layout/fragment_mentop_r.xml" value="0.13405797101449277" />
-        <entry key="app/src/main/res/layout/size_layout.xml" value="0.16032608695652173" />
-        <entry key="app/src/main/res/layout/toolbar.xml" value="0.1" />
-        <entry key="app/src/main/res/menu/menu_scrolling_my_sizes.xml" value="0.178125" />
-        <entry key="app/src/main/res/mipmap-anydpi-v26/update.xml" value="0.1" />
       </map>
     </option>
   </component>
