@@ -46,9 +46,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
+                        android:fontFamily="@font/questv1_regular"
                         android:text="ملابس أطفال 1-7 سنوات"
                         android:textColor="@color/black"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -81,6 +82,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
+                        android:fontFamily="@font/questv1_regular"
                         android:text="ملابس مواليد"
                         android:textColor="@color/black"
                         android:textSize="18sp" />
@@ -115,6 +117,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
+                        android:fontFamily="@font/questv1_regular"
                         android:text="بنات أكبر من 8 سنوات"
                         android:textColor="@color/black"
                         android:textSize="18sp" />
@@ -149,9 +152,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
+                        android:fontFamily="@font/questv1_regular"
                         android:text="أولاد أكبر من 8 سنين"
                         android:textColor="@color/black"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
@@ -183,6 +187,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
+                        android:fontFamily="@font/questv1_regular"
                         android:text="أحذية أطفال"
                         android:textColor="@color/black"
                         android:textSize="18sp" />
@@ -218,6 +223,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
+                        android:fontFamily="@font/questv1_regular"
                         android:text="قبعات مواليد"
                         android:textColor="@color/black"
                         android:textSize="18sp" />

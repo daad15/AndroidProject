@@ -21,17 +21,20 @@
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="المقاسات" />
+            android:text="المقاسات"
+            android:fontFamily="@font/questv1_regular"/>
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="المقاسات الطويلة" />
+            android:text="المقاسات الطويلة"
+            android:fontFamily="@font/questv1_regular"/>
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="المقاسات الصغيرة" />
+            android:text="المقاسات الصغيرة"
+            android:fontFamily="@font/questv1_regular"/>
     </com.google.android.material.tabs.TabLayout>
 
     <androidx.viewpager.widget.ViewPager

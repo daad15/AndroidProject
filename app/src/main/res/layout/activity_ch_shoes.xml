@@ -29,7 +29,8 @@
                 android:padding="10sp"
                 android:text="المقاس البريطاني   US"
                 android:textColor="#FFFFFF"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                android:fontFamily="@font/questv1_regular"/>
 
             <TextView
                 android:layout_width="0dp"
@@ -39,7 +40,8 @@
                 android:padding="10sp"
                 android:text="المقاس الأمريكي    UK"
                 android:textColor="#FFFFFF"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                android:fontFamily="@font/questv1_regular"/>
 
             <TextView
                 android:layout_width="0dp"
@@ -49,7 +51,8 @@
                 android:padding="10sp"
                 android:text="طول القدم (سم)"
                 android:textColor="#FFFFFF"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                android:fontFamily="@font/questv1_regular"/>
 
             <TextView
                 android:layout_width="0dp"
@@ -59,7 +62,8 @@
                 android:padding="10sp"
                 android:text="العمر"
                 android:textColor="#FFFFFF"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                android:fontFamily="@font/questv1_regular"/>
 
 
         </TableRow>
@@ -142,7 +146,8 @@
                 android:gravity="center_horizontal"
                 android:padding="10sp"
                 android:text="0-3 اشهر"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:fontFamily="@font/questv1_regular"/>
 
         </TableRow>
 
@@ -182,7 +187,8 @@
                 android:gravity="center_horizontal"
                 android:padding="10sp"
                 android:text="3-6 اشهر"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:fontFamily="@font/questv1_regular"/>
 
         </TableRow>
 
@@ -222,7 +228,8 @@
                 android:gravity="center_horizontal"
                 android:padding="10sp"
                 android:text="6-9 اشهر"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:fontFamily="@font/questv1_regular"/>
 
         </TableRow>
 
@@ -262,7 +269,8 @@
                 android:gravity="center_horizontal"
                 android:padding="10sp"
                 android:text="9-12 اشهر"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:fontFamily="@font/questv1_regular"/>
 
         </TableRow>
 
@@ -302,7 +310,8 @@
                 android:gravity="center_horizontal"
                 android:padding="10sp"
                 android:text="1 سنه"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:fontFamily="@font/questv1_regular"/>
 
         </TableRow>
 
@@ -342,7 +351,8 @@
                 android:gravity="center_horizontal"
                 android:padding="10sp"
                 android:text="2 سنتين"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:fontFamily="@font/questv1_regular"/>
 
         </TableRow>
 
@@ -382,7 +392,8 @@
                 android:gravity="center_horizontal"
                 android:padding="10sp"
                 android:text="3 سنوات"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:fontFamily="@font/questv1_regular"/>
 
         </TableRow>
 
@@ -422,7 +433,8 @@
                 android:gravity="center_horizontal"
                 android:padding="10sp"
                 android:text="4 سنوات"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:fontFamily="@font/questv1_regular"/>
 
         </TableRow>
 
@@ -462,7 +474,8 @@
                 android:gravity="center_horizontal"
                 android:padding="10sp"
                 android:text="5 سنوات"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:fontFamily="@font/questv1_regular"/>
 
         </TableRow>
 
@@ -502,7 +515,8 @@
                 android:gravity="center_horizontal"
                 android:padding="10sp"
                 android:text="6 سنوات"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:fontFamily="@font/questv1_regular"/>
         </TableRow>
 
     </TableLayout>

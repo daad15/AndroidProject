@@ -28,7 +28,8 @@
                 android:padding="10sp"
                 android:text=" العمر"
                 android:textColor="#FFFFFF"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                android:fontFamily="@font/questv1_regular" />
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -37,7 +38,8 @@
                 android:padding="10sp"
                 android:text="محيط الرأس (سم)"
                 android:textColor="#FFFFFF"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                android:fontFamily="@font/questv1_regular"/>
 
             <TextView
                 android:layout_width="0dp"
@@ -47,7 +49,8 @@
                 android:padding="10sp"
                 android:text="المقاس العالمي"
                 android:textColor="#FFFFFF"
-                android:textSize="14sp" />
+                android:textSize="14sp"
+                android:fontFamily="@font/questv1_regular"/>
 
 
         </TableRow>
@@ -60,7 +63,8 @@
                 android:gravity="center_horizontal"
                 android:padding="10sp"
                 android:text="ّ0-6 شهور"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:fontFamily="@font/questv1_regular"/>
 
             <TextView
                 android:layout_width="0dp"
@@ -91,7 +95,8 @@
                 android:gravity="center_horizontal"
                 android:padding="10sp"
                 android:text="ّ6-12 شهور"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:fontFamily="@font/questv1_regular"/>
 
             <TextView
                 android:layout_width="0dp"
@@ -121,7 +126,8 @@
                 android:gravity="center_horizontal"
                 android:padding="10sp"
                 android:text="12-14 شهر"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:fontFamily="@font/questv1_regular"/>
 
 
             <TextView

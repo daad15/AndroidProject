@@ -19,6 +19,7 @@
         android:textStyle="bold"
         android:textColor="@color/black"
         android:hint="ادخل الاسم هنا"
+        android:fontFamily="@font/questv1_regular"
         android:id="@+id/createtitleofnote">
     </EditText>
 
@@ -31,6 +32,7 @@
         android:gravity="top|right"
         android:textColor="@color/black"
         android:hint="أدخل بيانات مقاساتك هنا"
+        android:fontFamily="@font/questv1_regular"
         android:layout_below="@id/toolbarofcreatenote"
         android:padding="15dp"
         android:id="@+id/createcontentofnote">

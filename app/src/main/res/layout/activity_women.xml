@@ -51,6 +51,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:text="فساتين"
+                        android:fontFamily="@font/questv1_regular"
                         android:textColor="@color/black"
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -85,6 +86,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:text="عباية"
+                        android:fontFamily="@font/questv1_regular"
                         android:textColor="@color/black"
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -119,6 +121,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:text="قياسات حوامل"
+                        android:fontFamily="@font/questv1_regular"
                         android:textColor="@color/black"
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -153,6 +156,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:text="ملابس علوية"
+                        android:fontFamily="@font/questv1_regular"
                         android:textColor="@color/black"
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -187,6 +191,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:text="تنانير"
+                        android:fontFamily="@font/questv1_regular"
                         android:textColor="@color/black"
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -222,6 +227,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:text="بناطيل"
+                        android:fontFamily="@font/questv1_regular"
                         android:textColor="@color/black"
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -255,6 +261,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:text="ملابس داخلية سفلية"
+                        android:fontFamily="@font/questv1_regular"
                         android:textColor="@color/black"
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -290,6 +297,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:text="ملابس داخلية علوية"
+                        android:fontFamily="@font/questv1_regular"
                         android:textColor="@color/black"
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -324,6 +332,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:text="حزام"
+                        android:fontFamily="@font/questv1_regular"
                         android:textColor="@color/black"
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -358,6 +367,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:text="جوارب طويلة"
+                        android:fontFamily="@font/questv1_regular"
                         android:textColor="@color/black"
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -392,6 +402,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:text="خواتم"
+                        android:fontFamily="@font/questv1_regular"
                         android:textColor="@color/black"
                         android:textSize="18sp" />
                 </LinearLayout>
@@ -426,6 +437,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
                         android:text="كعب"
+                        android:fontFamily="@font/questv1_regular"
                         android:textColor="@color/black"
                         android:textSize="18sp" />
                 </LinearLayout>

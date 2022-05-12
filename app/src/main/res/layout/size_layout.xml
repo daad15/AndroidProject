@@ -38,6 +38,7 @@
                 android:paddingRight="10dp"
                 android:paddingBottom="10dp"
                 android:text="Hi world"
+                android:fontFamily="@font/questv1_regular"
                 android:textColor="#383836"
                 android:textSize="20sp"></TextView>
 
@@ -62,6 +63,7 @@
             android:paddingRight="10dp"
             android:paddingBottom="20dp"
             android:text="this is your text"
+            android:fontFamily="@font/questv1_regular"
             android:textColor="@color/black"
             android:background="#F2EEEC"
             android:textSize="15sp"></TextView>

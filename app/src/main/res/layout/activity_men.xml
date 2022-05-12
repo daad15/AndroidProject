@@ -52,7 +52,8 @@
                     android:layout_marginTop="12dp"
                     android:text="ثوب"
                     android:textColor="@color/black"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:fontFamily="@font/questv1_regular"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -87,7 +88,8 @@
                     android:layout_marginTop="12dp"
                     android:text="ملابس علوية"
                     android:textColor="@color/black"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:fontFamily="@font/questv1_regular"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -122,7 +124,8 @@
                     android:layout_marginTop="12dp"
                     android:text="قمصان"
                     android:textColor="@color/black"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:fontFamily="@font/questv1_regular"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -157,7 +160,8 @@
                     android:layout_marginTop="12dp"
                     android:text="بناطيل"
                     android:textColor="@color/black"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:fontFamily="@font/questv1_regular"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -192,7 +196,8 @@
                     android:layout_marginTop="12dp"
                     android:text="ملابس داخلية"
                     android:textColor="@color/black"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:fontFamily="@font/questv1_regular"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -228,7 +233,8 @@
                     android:layout_marginTop="12dp"
                     android:text="حذاء"
                     android:textColor="@color/black"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:fontFamily="@font/questv1_regular"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -263,7 +269,8 @@
                     android:layout_marginTop="12dp"
                     android:text="حزام"
                     android:textColor="@color/black"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:fontFamily="@font/questv1_regular"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -298,7 +305,8 @@
                     android:layout_marginTop="12dp"
                     android:text="قبعة"
                     android:textColor="@color/black"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:fontFamily="@font/questv1_regular"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -333,7 +341,8 @@
                     android:layout_marginTop="12dp"
                     android:text="شماغ"
                     android:textColor="@color/black"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:fontFamily="@font/questv1_regular"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
