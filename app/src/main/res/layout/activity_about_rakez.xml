@@ -106,7 +106,7 @@
             android:id="@+id/textView7"
             android:layout_width="346dp"
             android:layout_height="wrap_content"
-            android:text="هنا راكز  , يختصر عليـك هذع المهمة الشاقة  فقط تأكد من أخذ قياساتك بدقة لتحصل على أركز مقــاس"
+            android:text="هنا راكز  , يختصر عليـك هذه المهمة الشاقة  فقط تأكد من أخذ قياساتك بدقة لتحصل على أركز مقــاس"
             android:textAlignment="center"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
