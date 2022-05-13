@@ -46,10 +46,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="12dp"
-                        android:fontFamily="@font/questv1_regular"
                         android:text="ملابس أطفال 1-7 سنوات"
+                        android:fontFamily="@font/questv1_regular"
                         android:textColor="@color/black"
-                        android:textSize="16sp" />
+                        android:textSize="14sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -120,7 +120,7 @@
                         android:fontFamily="@font/questv1_regular"
                         android:text="بنات أكبر من 8 سنوات"
                         android:textColor="@color/black"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView

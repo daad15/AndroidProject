@@ -16,25 +16,26 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:tabIndicatorColor="#383836">
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="المقاسات"
-            android:fontFamily="@font/questv1_regular"/>
+            android:fontFamily="@font/questv1_regular"
+            android:text="المقاسات" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="المقاسات الطويلة"
-            android:fontFamily="@font/questv1_regular"/>
+            android:fontFamily="@font/questv1_regular"
+            android:text="المقاسات الطويلة" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="المقاسات الصغيرة"
-            android:fontFamily="@font/questv1_regular"/>
+            android:fontFamily="@font/questv1_regular"
+            android:text="المقاسات الصغيرة" />
     </com.google.android.material.tabs.TabLayout>
 
     <androidx.viewpager.widget.ViewPager

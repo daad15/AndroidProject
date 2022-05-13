@@ -263,7 +263,7 @@
                         android:text="ملابس داخلية سفلية"
                         android:fontFamily="@font/questv1_regular"
                         android:textColor="@color/black"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -299,7 +299,7 @@
                         android:text="ملابس داخلية علوية"
                         android:fontFamily="@font/questv1_regular"
                         android:textColor="@color/black"
-                        android:textSize="18sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
