@@ -17,6 +17,20 @@
         android:background="@android:color/white">
 
         <!-- Table Heading -->
+        <TableRow>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="أحزمة النساء "
+                android:textSize="19dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/questv1_regular"
+                android:textColor="#383836"
+                android:padding="20sp"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                />
+        </TableRow>
 
         <TableRow android:background="#F3CE33">
 

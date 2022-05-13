@@ -6,7 +6,10 @@
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.13119143239625167" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.153125" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_baby.xml" value="0.33" />
-        <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_baby_beany.xml" value="0.5" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_baby_beany.xml" value="0.33" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_ch_boy.xml" value="0.21" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_ch_girl.xml" value="0.14356884057971014" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_ch_shoes.xml" value="0.17" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_create_size.xml" value="0.25" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_editnoteactivity.xml" value="0.14166666666666666" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_kids.xml" value="0.1" />
@@ -24,24 +27,27 @@
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_my_size.xml" value="0.1" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_notedetails.xml" value="0.25" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_scrolling_my_sizes.xml" value="0.14" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_toddler.xml" value="0.33" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_women.xml" value="0.1" />
-        <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_women_abaya.xml" value="0.33" />
-        <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_women_belt.xml" value="0.5" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_women_abaya.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_women_belt.xml" value="0.25" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_women_bra.xml" value="0.14356884057971014" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_women_dress.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_women_maternity.xml" value="0.25" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_women_panties.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_women_panties1.xml" value="0.14356884057971014" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_women_pants.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_women_ring.xml" value="0.33" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_women_shoes.xml" value="0.25" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_women_skirt.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_women_tight.xml" value="0.15" />
-        <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_women_top.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/activity_women_top.xml" value="0.1" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/fragment_men_pants_l.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/fragment_men_pants_r.xml" value="0.33" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/fragment_men_pants_s.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/fragment_mentop_l.xml" value="0.21" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/fragment_mentop_r.xml" value="0.1" />
-        <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/fragment_mentop_s.xml" value="0.1" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/fragment_mentop_s.xml" value="0.22" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/fragment_women_dress_l.xml" value="0.33" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/fragment_women_dress_r.xml" value="0.33" />
         <entry key="..\:/Users/PC/AndroidStudioProjects/Rakez/app/src/main/res/layout/fragment_women_dress_s.xml" value="0.25" />

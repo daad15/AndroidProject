@@ -22,7 +22,7 @@
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:text="ملابس علوية"
+                    android:text="ملابس علوية نسائية"
                     android:textSize="17dp"
                     android:fontFamily="@font/questv1_regular"
                     android:textColor="#383836"
